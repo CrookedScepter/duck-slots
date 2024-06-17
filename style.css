@@ -1,0 +1,77 @@
+html {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+#reel-holder {
+    background-color: red;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 120px;
+    box-shadow: black 4px 4px 4px;
+}
+
+#slot-exterior {
+    background-color: #939393;
+    padding: 20px 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 430px;
+    margin-top: 20px;
+    border: 15px solid rgb(58, 58, 58);
+    box-shadow: black 7px 7px 10px;
+}
+
+.reel {
+    background-color: #d9d9d9;
+    height: 120px;
+    width: 120px;
+    border-radius: 5px;
+    border: solid rgb(58, 58, 58) 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 2px 2px 4px;
+}
+
+#slot-title {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    border: solid rgb(58, 58, 58) 3px;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: rgba(242, 255, 124, 0.6);
+    box-shadow: black 2px 2px 4px;
+}
+
+#play-button {
+    font-weight: bold;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+html {
+    background-image: url('./images/swamp-background.jpg');
+}
+
+button {
+    box-shadow: black 2px 2px 2px;
+}
+
+#stats-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
